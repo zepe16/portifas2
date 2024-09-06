@@ -1,9 +1,11 @@
 body{
     text-align: center;
+    align-items: center;
 }
 
 
 button {
+
     --color: #00A97F;
     padding: 0.8em 1.7em;
     background-color: transparent;

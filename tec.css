@@ -1,0 +1,33 @@
+body{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.habkan{
+    color: rgb(226, 16, 16);
+}
+
+.modelagem{
+    color: rgb(52, 134, 134);
+}
+
+.habsante{
+    color: rgb(226, 16, 16);
+}
+
+.Dados{
+    color: rgb(40, 110, 190);
+}
+
+.hablista{
+    color: rgb(226, 16, 16);
+}
+
+.habnormal{
+    color: rgb(226, 16, 16);
+}
+
+.desenvolv{
+    color: rgb(98, 46, 158);
+}

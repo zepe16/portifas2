@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titmat{
+    color: blue;
+}
+
+.habbanc{
+    color: rgb(226, 16, 16);
+}
+
+.habfl{
+    color: rgb(226, 16, 16);
+}
