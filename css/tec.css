@@ -31,3 +31,8 @@ body{
 .desenvolv{
     color: rgb(98, 46, 158);
 }
+
+img {
+    width: 600px;
+    height: 400px;
+}
