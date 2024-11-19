@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <link rel="stylesheet" href="hum.css">
+        <link rel="stylesheet" href="/css/hum.css">
         <style>
             body,
             h1,
@@ -34,7 +34,7 @@
     <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
         style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
         <h3 class="w3-padding-64 w3-center"><b>Meu<br>Portfólio</b></h3>
-        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Tela inicial</a>
+        <a href="./2tri.html" onclick="w3_close()" class="w3-bar-item w3-button">Tela inicial</a>
         <a href="ppehum.html" onclick="w3_close()" class="w3-bar-item w3-button">PPE</a>
 
     </nav>
@@ -74,7 +74,7 @@
             </div>
 
             <a href="https://www.canva.com/design/DAGHFqHCQSo/29Xb1pdZOlqnHrYbNeM--Q/edit?utm_content=DAGHFqHCQSo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                <img src="imagens/coraline.png" width="800" alt="">
+                <img src="/imagens/coraline.png" width="800" alt="">
             </a>
 
             <div class="tithungry">
@@ -91,21 +91,21 @@
             </div>
 
             <a href="imghungry">
-                <img src="imagens/hungryplanet.png" width="800" alt="hungryimg">
+                <img src="/imagens/hungryplanet.png" width="800" alt="hungryimg">
             </a>
 
+            <h1>Terceiro Trimestre</h1>
+
+            <h2>As tensões políticas do suicídio de Vargas até o fim do governo Jango</h2>
+            <p>Nessa atividade fizemos uma pesquisa falando Sebastião José de Oliveira um dos afetados pelo "Massacre de Manguinhos" que vimos na aula</p>
+            <a href="https://docs.google.com/document/d/19ZkrbBFVi2w2f4S_tjia1my-a5dEGN9UE4iBwc2vEqc/edit?usp=sharing">
+                <img src="/imagens/massacre.jpg" alt="">
+            </a>
 
             </div>
         </div>
 
-        <!-- Modal for full size images on click-->
-        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-            <span class="w3-button w3-black w3-xlarge w3-display-topright"></span>
-            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                <img id="img01" class="w3-image">
-                <p id="caption"></p>
-            </div>
-        </div>
+
 
                 <p class="w3-wide"></p>
                             </li>
@@ -119,29 +119,6 @@
 
         <!-- End page content -->
     </div>
-
-    <script>
-        // Script to open and close sidebar
-        function w3_open() {
-            document.getElementById("mySidebar").style.display = "block";
-            document.getElementById("myOverlay").style.display = "block";
-        }
-
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-            document.getElementById("myOverlay").style.display = "none";
-        }
-
-        // Modal Image Gallery
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-            var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
-        }
-
-    </script>
-
 
 </body>
 
