@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.office {
+    text-align: center;
+}
+
+button {
+   cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(52, 177, 79);
+  border: 2px solid rgb(52, 177, 79);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
